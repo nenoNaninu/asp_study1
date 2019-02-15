@@ -41,16 +41,16 @@ namespace WebApplication2
 //            });
 
 // Use SQL Database if in Azure, otherwise, use SQLite
-//            if(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
-//                services.AddDbContext<MyContext>(options =>
-//                    options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
-//            else
-//                services.AddDbContext<MyContext>(options =>
-//                    options.UseSqlite("Data Source=MyContext.db"));
+            if(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+                services.AddDbContext<MyContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
+            else
+                services.AddDbContext<MyContext>(options =>
+                    options.UseSqlite("Data Source=MyContext.db"));
 
 // Automatically perform database migration
 
-//            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
+            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
