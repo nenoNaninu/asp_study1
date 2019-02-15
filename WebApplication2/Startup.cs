@@ -50,7 +50,7 @@ namespace WebApplication2
 
 // Automatically perform database migration
 
-            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
+//            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
