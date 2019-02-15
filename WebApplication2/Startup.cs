@@ -49,6 +49,7 @@ namespace WebApplication2
 //                    options.UseSqlite("Data Source=MyContext.db"));
 
 // Automatically perform database migration
+
             services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
         }
 
