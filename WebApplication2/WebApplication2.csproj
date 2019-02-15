@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.2" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.2" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Books\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Books\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Books\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Books\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Books\Index.cshtml" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Books\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Books\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Books\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Books\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Books\Index.cshtml" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Folder Include="Data" />
+    </ItemGroup>
+
+</Project>
