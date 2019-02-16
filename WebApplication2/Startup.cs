@@ -48,14 +48,16 @@ namespace WebApplication2
             {
                 Console.WriteLine(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"));
                 services.AddDbContext<MyContext>(options =>
-                    options.UseSqlite("Data Source=MyContext.db"));
+                    options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
+//                services.AddDbContext<MyContext>(options =>
+//                    options.UseSqlite("Data Source=MyContext.db"));
             }
 
 
 
 // Automatically perform database migration
 
-            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
+//            services.BuildServiceProvider().GetService<MyContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
