@@ -46,10 +46,9 @@ namespace WebApplication2
                     options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
             else
             {
+                Console.WriteLine(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"));
                 services.AddDbContext<MyContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
-//                services.AddDbContext<MyContext>(options =>
-//                    options.UseSqlite("Data Source=MyContext.db"));
+                    options.UseSqlite("Data Source=MyContext.db"));
             }
 
 
