@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4145276c-aa86-43a1-9856-76d1cbdedbe2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/WebApplication2/MyContext.db" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/MyContext.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,23 +153,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebApplication2/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="277">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
-                <marker date="1550336022834" expanded="false" signature="6:430" ph="..." />
-                <marker date="1550336022834" expanded="true" signature="457:3234" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="484:3232" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="543:606" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="829:2312" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="902:1179" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="1273:1485" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
-                <marker date="1550336022834" expanded="true" signature="1751:2164" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="2019:2150" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
-                <marker date="1550336022834" expanded="true" signature="2168:2302" ph="/* Automatically perform database migration ... */" />
-                <marker date="1550336022834" expanded="true" signature="2500:3226" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="2547:2624" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="2641:2900" ph="{...}" />
-                <marker date="1550336022834" expanded="true" signature="3043:3214" ph="{...}" />
+                <marker date="1550336499006" expanded="false" signature="6:430" ph="..." />
+                <marker date="1550336499006" expanded="true" signature="457:3230" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="484:3228" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="543:606" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="829:2308" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="902:1179" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="1273:1485" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
+                <marker date="1550336499006" expanded="true" signature="1751:2164" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="2019:2150" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
+                <marker date="1550336499006" expanded="true" signature="2496:3222" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="2543:2620" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="2637:2896" ph="{...}" />
+                <marker date="1550336499006" expanded="true" signature="3039:3210" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -298,12 +298,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550203500701</updated>
-      <workItem from="1550203503068" duration="5996000" />
+      <workItem from="1550203503068" duration="6305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5996000" />
+    <option name="totallyTimeSpent" value="6305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,18 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApplication2/Models/MyContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <marker date="1550205334565" expanded="true" signature="70:289" ph="{...}" />
-            <marker date="1550205334565" expanded="true" signature="109:287" ph="{...}" />
-            <marker date="1550205334565" expanded="true" signature="193:226" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApplication2/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -471,17 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApplication2/Models/Book.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1550205152961" expanded="true" signature="32:274" ph="{...}" />
-            <marker date="1550205152961" expanded="true" signature="56:272" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApplication2/WebApplication2.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -502,25 +479,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication2/Models/Book.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1550205152961" expanded="true" signature="32:274" ph="{...}" />
+            <marker date="1550205152961" expanded="true" signature="56:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication2/Models/MyContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1550205334565" expanded="true" signature="70:289" ph="{...}" />
+            <marker date="1550205334565" expanded="true" signature="109:287" ph="{...}" />
+            <marker date="1550205334565" expanded="true" signature="193:226" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebApplication2/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="277">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
-            <marker date="1550336022834" expanded="false" signature="6:430" ph="..." />
-            <marker date="1550336022834" expanded="true" signature="457:3234" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="484:3232" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="543:606" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="829:2312" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="902:1179" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="1273:1485" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
-            <marker date="1550336022834" expanded="true" signature="1751:2164" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="2019:2150" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
-            <marker date="1550336022834" expanded="true" signature="2168:2302" ph="/* Automatically perform database migration ... */" />
-            <marker date="1550336022834" expanded="true" signature="2500:3226" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="2547:2624" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="2641:2900" ph="{...}" />
-            <marker date="1550336022834" expanded="true" signature="3043:3214" ph="{...}" />
+            <marker date="1550336499006" expanded="false" signature="6:430" ph="..." />
+            <marker date="1550336499006" expanded="true" signature="457:3230" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="484:3228" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="543:606" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="829:2308" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="902:1179" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="1273:1485" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
+            <marker date="1550336499006" expanded="true" signature="1751:2164" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="2019:2150" ph="/* services.AddDbContext&lt;MyContext&gt;(options =&gt; ... */" />
+            <marker date="1550336499006" expanded="true" signature="2496:3222" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="2543:2620" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="2637:2896" ph="{...}" />
+            <marker date="1550336499006" expanded="true" signature="3039:3210" ph="{...}" />
           </folding>
         </state>
       </provider>
