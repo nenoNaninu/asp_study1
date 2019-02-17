@@ -33,6 +33,9 @@ Id = table.Column<int>(nullable: false)
 -d
 --data-annotations
 ```
-のどちらかのコマンドを叩けばいいのだが調べがついていない。オプションの詳細については[こちら](https://docs.microsoft.com/ja-jp/ef/core/miscellaneous/cli/dotnet)
+~~のどちらかのコマンドを叩けばいいのだが調べがついていない。~~
+どうやら[手動でどうにかしないと行けないらしい](https://docs.microsoft.com/ja-jp/ef/core/managing-schemas/migrations/providers)
+
+オプションの詳細については[こちら](https://docs.microsoft.com/ja-jp/ef/core/miscellaneous/cli/dotnet)
 
 Azureサイドの設定などは[こちら](https://docs.microsoft.com/ja-jp/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb)が非常によい。
