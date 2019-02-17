@@ -48,7 +48,7 @@ namespace WebApplication2
             {
                 Console.WriteLine(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"));
                 services.AddDbContext<MyContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
+                    options.UseSqlServer("Server=tcp:quickmasterbook.database.windows.net,1433;Initial Catalog=coreDB;Persist Security Info=False;User ID=nenoNaninu;Password=Uenify017144;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 //                services.AddDbContext<MyContext>(options =>
 //                    options.UseSqlite("Data Source=MyContext.db"));
             }
