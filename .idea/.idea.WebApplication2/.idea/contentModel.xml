@@ -15,8 +15,8 @@
         </e>
         <e p="Data" t="Include" />
         <e p="Migrations" t="Include">
-          <e p="20190215045333_InitialCreate.cs" t="Include" />
-          <e p="20190215045333_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190217132557_InitialCreate.cs" t="Include" />
+          <e p="20190217132557_InitialCreate.Designer.cs" t="Include" />
           <e p="MyContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

@@ -8,7 +8,7 @@ using WebApplication2.Models;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20190215045333_InitialCreate")]
+    [Migration("20190217132557_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
